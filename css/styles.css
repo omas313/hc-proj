@@ -1,2 +1,7 @@
-body {
+:root {
+  --color-primary: #037367;
+  --color-secondary: #7bd4cc;
+  --color-accent: #bea42e;
+  --color-headings: #00281f;
+  --color-body: #7b895b;
 }

@@ -1,11 +1,11 @@
 /* Global styles */
 :root {
+  --color-accent: #bea42e;
+  --color-body: #7b895b;
+  --color-headings: #00281f;
+  --color-light: #eee;
   --color-primary: #037367;
   --color-secondary: #7bd4cc;
-  --color-accent: #bea42e;
-  --color-headings: #00281f;
-  --color-body: #7b895b;
-  --color-light: #eee;
 }
 
 /* Typography */
@@ -15,8 +15,8 @@ html {
 }
 
 body {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
   color: var(--color-body);
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 2.4rem;
   line-height: 1.5;
 }
@@ -68,10 +68,10 @@ a {
 }
 
 .link-arrow {
-  text-transform: uppercase;
   color: var(--color-accent);
-  font-weight: bold;
   font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .link-arrow::after {

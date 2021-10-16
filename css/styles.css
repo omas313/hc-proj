@@ -150,3 +150,27 @@ a {
     padding-left: 0rem;
   }
 }
+
+/* Icons */
+.icon {
+  height: 40px;
+  width: 40px;
+}
+
+.icon--primary {
+  fill: var(--color-primary);
+}
+
+.icon--secondary {
+  fill: var(--color-secondary);
+}
+
+.icon-container {
+  align-items: center;
+  background-color: #f3faf7;
+  border-radius: 100%;
+  display: inline-flex;
+  height: 64px;
+  justify-content: center;
+  width: 64px;
+}

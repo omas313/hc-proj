@@ -1,3 +1,4 @@
+/* Global styles */
 :root {
   --color-primary: #037367;
   --color-secondary: #7bd4cc;
@@ -6,6 +7,8 @@
   --color-body: #7b895b;
   --color-light: #eee;
 }
+
+/* Typography */
 
 html {
   font-size: 62.5%;

@@ -222,6 +222,11 @@ a {
   width: 100%;
 }
 
+.button--stretched {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
 .button--outline {
   background: var(--color-light);
   border: 2px solid var(--color-headings);
@@ -541,5 +546,47 @@ a {
     position: absolute;
     right: 2px;
     top: 0.5rem;
+  }
+}
+
+/* Callouts */
+
+.callout {
+  border-radius: 5px;
+  padding: 4rem;
+}
+
+.callout--primary {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+.callout__content {
+  text-align: center;
+}
+
+.callout__heading {
+  color: var(--color-light);
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.callout .button {
+  justify-self: center;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .callout .grid {
+    grid-template-columns: 1fr auto;
+  }
+
+  .callout__content {
+    text-align: left;
+  }
+
+  .callout .button {
+    justify-self: start;
+    margin: 0 2rem;
   }
 }

@@ -45,6 +45,7 @@ h1,
 h2,
 h3 {
   color: var(--color-headings);
+  line-height: 1.1;
   margin-bottom: 1rem;
 }
 
@@ -726,5 +727,33 @@ a {
 
   .nav__item {
     border: 0;
+  }
+}
+
+/* Banner */
+
+.banner {
+  clip-path: polygon(0% 0%, 0% 100%, 100% 90%, 100% 0%);
+}
+
+.banner__tagline {
+  color: var(--color-grey);
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin: 2rem 0 5rem;
+}
+
+.banner__image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    padding-top: 1rem;
+  }
+
+  .banner__content {
+    align-self: center;
+    text-align: left;
   }
 }

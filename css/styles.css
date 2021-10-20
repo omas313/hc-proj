@@ -325,6 +325,23 @@ a {
   box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
 }
 
+@media screen and (max-width: 550px) {
+  .input-group {
+    flex-wrap: wrap;
+  }
+
+  .input-group button {
+    flex-grow: 1;
+  }
+
+  .input-group,
+  .input-group .input {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .input {
     font-size: 1.5rem;

@@ -1,3 +1,5 @@
+@import "./normalize.css";
+
 /* Global styles */
 :root {
   --color-accent-hover: #d6c05d;
